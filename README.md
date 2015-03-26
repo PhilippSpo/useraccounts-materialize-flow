@@ -3,23 +3,24 @@
 Router code to configure UserAccounts:
 
 ````javascript
-var stdConfig = {
-  layoutTemplate: "masterLayout",
-  renderLayout: {
-      nav: "nav",
-      footer: "footer"
-  },
-  contentRange: "area"
-};
-AccountsTemplates.configureRoute('signIn', stdConfig);
+AccountsTemplates.configure({
+	defaultLayout: 'layout',
+	defaultLayoutRegions: {
+		top: 'header',
+		aside: 'menu'
+	},
+	defaultContentRegion: 'main'
+});
 
-AccountsTemplates.configureRoute('forgotPwd', stdConfig);
+AccountsTemplates.configureRoute('signIn');
 
-AccountsTemplates.configureRoute('signUp', stdConfig);
+AccountsTemplates.configureRoute('forgotPwd');
 
-AccountsTemplates.configureRoute('resetPwd', stdConfig);
+AccountsTemplates.configureRoute('signUp');
 
-AccountsTemplates.configureRoute('verifyEmail', stdConfig);
+AccountsTemplates.configureRoute('resetPwd');
+
+AccountsTemplates.configureRoute('verifyEmail');
 `````
 
 master layout html file:
