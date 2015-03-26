@@ -4,7 +4,7 @@ Router code to configure UserAccounts:
 
 ````javascript
 AccountsTemplates.configure({
-	defaultLayout: 'layout',
+	defaultLayout: 'masterLayout',
 	defaultLayoutRegions: {
 		top: 'header',
 		aside: 'menu'
