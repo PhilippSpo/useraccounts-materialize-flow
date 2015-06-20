@@ -4,12 +4,12 @@ Router code to configure UserAccounts:
 
 ````javascript
 AccountsTemplates.configure({
-	defaultLayout: 'masterLayout',
-	defaultLayoutRegions: {
-		top: 'header',
-		aside: 'menu'
-	},
-	defaultContentRegion: 'main'
+  defaultLayout: "masterLayout",
+  defaultLayoutRegions: {
+    nav: "nav",
+    footer: "footer"
+  },
+  defaultContentRegion: "area"
 });
 
 AccountsTemplates.configureRoute('signIn');
