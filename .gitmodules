@@ -1,0 +1,3 @@
+[submodule "packages/meteor-useraccounts-core"]
+	path = packages/meteor-useraccounts-core
+	url = https://github.com/DenisGorbachev/meteor-useraccounts-core.git
