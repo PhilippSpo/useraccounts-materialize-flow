@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+This demo is now deprecated. Please see the official [Materialize FlowRouter boilerplate](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize-flow-router).
+
 # useraccounts-materialize-flow
 
 In order to get this demo to work, you currently have to be using the `flow-router-integration` branch of the useraccounts package. See instructions [here](https://github.com/meteor-useraccounts/core/blob/master/Guide.md#flow-router-integration).  
